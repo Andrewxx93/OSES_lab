@@ -1,0 +1,90 @@
+/*
+LAB01-Exercise #1:
+Creation of two basic tasks with the following properties:
+-Task A, with period 500 msec and priority 2; task A shall execute upon starting the
+operating system; The task manages an integer counter that starts from 0 and at each
+activation of the task is increments by 500.
+-Task B, with period 750 msec and priority 1; the first instance of task B shall be
+executed 1500 msec after starting the operating system. The task manages an integer
+counter that starts from 1500 and at each activation of the task is increments by 750.
+*/
+
+
+OIL_VERSION = "2.5";
+
+IMPLEMENTATION trampoline {
+
+    /* This fix the default STACKSIZE of tasks */
+    TASK {
+        UINT32 STACKSIZE = 32768 ;
+    } ;
+};
+
+CPU lab01_ex1 {
+  OS config {
+    STATUS = EXTENDED;
+	TRACE = TRUE {
+		FORMAT = json;
+		PROC = TRUE;
+        RESOURCE = TRUE;
+        ALARM = TRUE;
+        
+    };
+    BUILD = TRUE {
+      APP_SRC = "lab01.c";
+      TRAMPOLINE_BASE_PATH = "/home/andrew/trampoline";
+      CFLAGS="-ggdb";
+      APP_NAME = "lab01_exe";
+      LINKER = "gcc";
+      SYSTEM = PYTHON;
+    };
+  };
+
+  
+  APPMODE stdAppmode {};
+  
+
+
+  ALARM a500_msec {
+    COUNTER = SystemCounter;
+    ACTION = ACTIVATETASK { TASK = TaskA; };
+    AUTOSTART = TRUE { APPMODE = stdAppmode; ALARMTIME = 50; CYCLETIME = 50; };
+  };
+
+  ALARM a750_msec {
+    COUNTER = SystemCounter;
+    ACTION = ACTIVATETASK { TASK = TaskB; };
+    AUTOSTART = TRUE { APPMODE = stdAppmode; ALARMTIME = 150; CYCLETIME = 75; };
+  };
+
+  
+  ALARM stopper {
+    COUNTER = SystemCounter;
+    ACTION = ACTIVATETASK { TASK = stop; };
+    AUTOSTART = TRUE { APPMODE = stdAppmode; ALARMTIME = 600; CYCLETIME = 0; };
+  };
+    
+  
+
+  TASK TaskA {
+    PRIORITY = 2;
+    AUTOSTART = TRUE {APPMODE=stdAppmode;};
+    ACTIVATION = 1;
+    SCHEDULE = FULL;
+  };
+
+  TASK TaskB {
+    PRIORITY = 1;
+    AUTOSTART = FALSE;
+    ACTIVATION = 1;
+    SCHEDULE = FULL;
+  };
+
+  TASK stop {
+    PRIORITY = 99;
+    AUTOSTART = FALSE;
+    ACTIVATION = 1;
+    SCHEDULE = FULL;
+  };
+  
+};

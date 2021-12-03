@@ -1,0 +1,478 @@
+[         0] proc idle                 change to state READY_AND_NEW
+[         0] proc tau_C                change to state READY_AND_NEW
+[         0] proc tau_B                change to state READY_AND_NEW
+[         0] proc tau_A                change to state READY_AND_NEW
+[         0] proc initialization_task  change to state READY_AND_NEW
+[         0] proc initialization_task  change to state RUNNING
+[         0] proc initialization_task  change to state SUSPENDED
+[         0] proc tau_A                change to state RUNNING
+[         1] proc tau_A                change to state SUSPENDED
+[         1] proc tau_B                change to state RUNNING
+[        70] proc tau_B                change to state SUSPENDED
+[        70] proc tau_C                change to state RUNNING
+[        82] proc tau_C                change to state SUSPENDED
+[        82] proc idle                 change to state RUNNING
+[       100] time object expired: A
+[       100] proc tau_A                change to state READY_AND_NEW
+[       100] proc idle                 change to state READY
+[       100] proc tau_A                change to state RUNNING
+[       101] proc tau_A                change to state SUSPENDED
+[       101] proc idle                 change to state RUNNING
+[       150] time object expired: B
+[       150] proc tau_B                change to state READY_AND_NEW
+[       150] proc idle                 change to state READY
+[       150] proc tau_B                change to state RUNNING
+[       200] time object expired: A
+[       200] proc tau_A                change to state READY_AND_NEW
+[       200] proc tau_B                change to state READY
+[       200] proc tau_A                change to state RUNNING
+[       201] proc tau_A                change to state SUSPENDED
+[       201] proc tau_B                change to state RUNNING
+[       219] proc tau_B                change to state SUSPENDED
+[       219] proc idle                 change to state RUNNING
+[       280] time object expired: C
+[       280] proc tau_C                change to state READY_AND_NEW
+[       280] proc idle                 change to state READY
+[       280] proc tau_C                change to state RUNNING
+[       291] proc tau_C                change to state SUSPENDED
+[       291] proc idle                 change to state RUNNING
+[       300] time object expired: B
+[       300] proc tau_B                change to state READY_AND_NEW
+[       300] time object expired: A
+[       300] proc tau_A                change to state READY_AND_NEW
+[       300] proc idle                 change to state READY
+[       300] proc tau_A                change to state RUNNING
+[       301] proc tau_A                change to state SUSPENDED
+[       301] proc tau_B                change to state RUNNING
+[       371] proc tau_B                change to state SUSPENDED
+[       371] proc idle                 change to state RUNNING
+[       400] time object expired: A
+[       400] proc tau_A                change to state READY_AND_NEW
+[       400] proc idle                 change to state READY
+[       400] proc tau_A                change to state RUNNING
+[       401] proc tau_A                change to state SUSPENDED
+[       401] proc idle                 change to state RUNNING
+[       450] time object expired: B
+[       450] proc tau_B                change to state READY_AND_NEW
+[       450] proc idle                 change to state READY
+[       450] proc tau_B                change to state RUNNING
+[       500] time object expired: A
+[       500] proc tau_A                change to state READY_AND_NEW
+[       500] proc tau_B                change to state READY
+[       500] proc tau_A                change to state RUNNING
+[       501] proc tau_A                change to state SUSPENDED
+[       501] proc tau_B                change to state RUNNING
+[       523] proc tau_B                change to state SUSPENDED
+[       523] proc idle                 change to state RUNNING
+[       560] time object expired: C
+[       560] proc tau_C                change to state READY_AND_NEW
+[       560] proc idle                 change to state READY
+[       560] proc tau_C                change to state RUNNING
+[       571] proc tau_C                change to state SUSPENDED
+[       571] proc idle                 change to state RUNNING
+[       600] time object expired: B
+[       600] proc tau_B                change to state READY_AND_NEW
+[       600] time object expired: A
+[       600] proc tau_A                change to state READY_AND_NEW
+[       600] proc idle                 change to state READY
+[       600] proc tau_A                change to state RUNNING
+[       601] proc tau_A                change to state SUSPENDED
+[       601] proc tau_B                change to state RUNNING
+[       670] proc tau_B                change to state SUSPENDED
+[       670] proc idle                 change to state RUNNING
+[       700] time object expired: A
+[       700] proc tau_A                change to state READY_AND_NEW
+[       700] proc idle                 change to state READY
+[       700] proc tau_A                change to state RUNNING
+[       701] proc tau_A                change to state SUSPENDED
+[       701] proc idle                 change to state RUNNING
+[       750] time object expired: B
+[       750] proc tau_B                change to state READY_AND_NEW
+[       750] proc idle                 change to state READY
+[       750] proc tau_B                change to state RUNNING
+[       800] time object expired: A
+[       800] proc tau_A                change to state READY_AND_NEW
+[       800] proc tau_B                change to state READY
+[       800] proc tau_A                change to state RUNNING
+[       801] proc tau_A                change to state SUSPENDED
+[       801] proc tau_B                change to state RUNNING
+[       821] proc tau_B                change to state SUSPENDED
+[       821] proc idle                 change to state RUNNING
+[       840] time object expired: C
+[       840] proc tau_C                change to state READY_AND_NEW
+[       840] proc idle                 change to state READY
+[       840] proc tau_C                change to state RUNNING
+[       853] proc tau_C                change to state SUSPENDED
+[       853] proc idle                 change to state RUNNING
+[       900] time object expired: B
+[       900] proc tau_B                change to state READY_AND_NEW
+[       900] time object expired: A
+[       900] proc tau_A                change to state READY_AND_NEW
+[       900] proc idle                 change to state READY
+[       900] proc tau_A                change to state RUNNING
+[       901] proc tau_A                change to state SUSPENDED
+[       901] proc tau_B                change to state RUNNING
+[       970] proc tau_B                change to state SUSPENDED
+[       970] proc idle                 change to state RUNNING
+[      1000] time object expired: A
+[      1000] proc tau_A                change to state READY_AND_NEW
+[      1000] proc idle                 change to state READY
+[      1000] proc tau_A                change to state RUNNING
+[      1001] proc tau_A                change to state SUSPENDED
+[      1001] proc idle                 change to state RUNNING
+[      1050] time object expired: B
+[      1050] proc tau_B                change to state READY_AND_NEW
+[      1050] proc idle                 change to state READY
+[      1050] proc tau_B                change to state RUNNING
+[      1100] time object expired: A
+[      1100] proc tau_A                change to state READY_AND_NEW
+[      1100] proc tau_B                change to state READY
+[      1100] proc tau_A                change to state RUNNING
+[      1101] proc tau_A                change to state SUSPENDED
+[      1101] proc tau_B                change to state RUNNING
+[      1120] time object expired: C
+[      1120] proc tau_C                change to state READY_AND_NEW
+[      1120] proc tau_B                change to state SUSPENDED
+[      1120] proc tau_C                change to state RUNNING
+[      1130] proc tau_C                change to state SUSPENDED
+[      1130] proc idle                 change to state RUNNING
+[      1200] time object expired: B
+[      1200] proc tau_B                change to state READY_AND_NEW
+[      1200] time object expired: A
+[      1200] proc tau_A                change to state READY_AND_NEW
+[      1200] proc idle                 change to state READY
+[      1200] proc tau_A                change to state RUNNING
+[      1201] proc tau_A                change to state SUSPENDED
+[      1201] proc tau_B                change to state RUNNING
+[      1269] proc tau_B                change to state SUSPENDED
+[      1269] proc idle                 change to state RUNNING
+[      1300] time object expired: A
+[      1300] proc tau_A                change to state READY_AND_NEW
+[      1300] proc idle                 change to state READY
+[      1300] proc tau_A                change to state RUNNING
+[      1301] proc tau_A                change to state SUSPENDED
+[      1301] proc idle                 change to state RUNNING
+[      1350] time object expired: B
+[      1350] proc tau_B                change to state READY_AND_NEW
+[      1350] proc idle                 change to state READY
+[      1350] proc tau_B                change to state RUNNING
+[      1400] time object expired: C
+[      1400] proc tau_C                change to state READY_AND_NEW
+[      1400] time object expired: A
+[      1400] proc tau_A                change to state READY_AND_NEW
+[      1400] proc tau_B                change to state READY
+[      1400] proc tau_A                change to state RUNNING
+[      1401] proc tau_A                change to state SUSPENDED
+[      1401] proc tau_B                change to state RUNNING
+[      1421] proc tau_B                change to state SUSPENDED
+[      1421] proc tau_C                change to state RUNNING
+[      1432] proc tau_C                change to state SUSPENDED
+[      1432] proc idle                 change to state RUNNING
+[      1500] time object expired: B
+[      1500] proc tau_B                change to state READY_AND_NEW
+[      1500] time object expired: A
+[      1500] proc tau_A                change to state READY_AND_NEW
+[      1500] proc idle                 change to state READY
+[      1500] proc tau_A                change to state RUNNING
+[      1501] proc tau_A                change to state SUSPENDED
+[      1501] proc tau_B                change to state RUNNING
+[      1570] proc tau_B                change to state SUSPENDED
+[      1570] proc idle                 change to state RUNNING
+[      1600] time object expired: A
+[      1600] proc tau_A                change to state READY_AND_NEW
+[      1600] proc idle                 change to state READY
+[      1600] proc tau_A                change to state RUNNING
+[      1601] proc tau_A                change to state SUSPENDED
+[      1601] proc idle                 change to state RUNNING
+[      1650] time object expired: B
+[      1650] proc tau_B                change to state READY_AND_NEW
+[      1650] proc idle                 change to state READY
+[      1650] proc tau_B                change to state RUNNING
+[      1680] time object expired: C
+[      1680] proc tau_C                change to state READY_AND_NEW
+[      1700] time object expired: A
+[      1700] proc tau_A                change to state READY_AND_NEW
+[      1700] proc tau_B                change to state READY
+[      1700] proc tau_A                change to state RUNNING
+[      1701] proc tau_A                change to state SUSPENDED
+[      1701] proc tau_B                change to state RUNNING
+[      1721] proc tau_B                change to state SUSPENDED
+[      1721] proc tau_C                change to state RUNNING
+[      1732] proc tau_C                change to state SUSPENDED
+[      1732] proc idle                 change to state RUNNING
+[      1800] time object expired: B
+[      1800] proc tau_B                change to state READY_AND_NEW
+[      1800] time object expired: A
+[      1800] proc tau_A                change to state READY_AND_NEW
+[      1800] proc idle                 change to state READY
+[      1800] proc tau_A                change to state RUNNING
+[      1801] proc tau_A                change to state SUSPENDED
+[      1801] proc tau_B                change to state RUNNING
+[      1870] proc tau_B                change to state SUSPENDED
+[      1870] proc idle                 change to state RUNNING
+[      1900] time object expired: A
+[      1900] proc tau_A                change to state READY_AND_NEW
+[      1900] proc idle                 change to state READY
+[      1900] proc tau_A                change to state RUNNING
+[      1901] proc tau_A                change to state SUSPENDED
+[      1901] proc idle                 change to state RUNNING
+[      1950] time object expired: B
+[      1950] proc tau_B                change to state READY_AND_NEW
+[      1950] proc idle                 change to state READY
+[      1950] proc tau_B                change to state RUNNING
+[      1960] time object expired: C
+[      1960] proc tau_C                change to state READY_AND_NEW
+[      2000] time object expired: A
+[      2000] proc tau_A                change to state READY_AND_NEW
+[      2000] proc tau_B                change to state READY
+[      2000] proc tau_A                change to state RUNNING
+[      2001] proc tau_A                change to state SUSPENDED
+[      2001] proc tau_B                change to state RUNNING
+[      2022] proc tau_B                change to state SUSPENDED
+[      2022] proc tau_C                change to state RUNNING
+[      2033] proc tau_C                change to state SUSPENDED
+[      2033] proc idle                 change to state RUNNING
+[      2100] time object expired: B
+[      2100] proc tau_B                change to state READY_AND_NEW
+[      2100] time object expired: A
+[      2100] proc tau_A                change to state READY_AND_NEW
+[      2100] proc idle                 change to state READY
+[      2100] proc tau_A                change to state RUNNING
+[      2101] proc tau_A                change to state SUSPENDED
+[      2101] proc tau_B                change to state RUNNING
+[      2169] proc tau_B                change to state SUSPENDED
+[      2169] proc idle                 change to state RUNNING
+[      2200] time object expired: A
+[      2200] proc tau_A                change to state READY_AND_NEW
+[      2200] proc idle                 change to state READY
+[      2200] proc tau_A                change to state RUNNING
+[      2201] proc tau_A                change to state SUSPENDED
+[      2201] proc idle                 change to state RUNNING
+[      2240] time object expired: C
+[      2240] proc tau_C                change to state READY_AND_NEW
+[      2240] proc idle                 change to state READY
+[      2240] proc tau_C                change to state RUNNING
+[      2250] time object expired: B
+[      2250] proc tau_B                change to state READY_AND_NEW
+[      2250] proc tau_C                change to state READY
+[      2250] proc tau_B                change to state RUNNING
+[      2300] time object expired: A
+[      2300] proc tau_A                change to state READY_AND_NEW
+[      2300] proc tau_B                change to state READY
+[      2300] proc tau_A                change to state RUNNING
+[      2301] proc tau_A                change to state SUSPENDED
+[      2301] proc tau_B                change to state RUNNING
+[      2320] proc tau_B                change to state SUSPENDED
+[      2320] proc tau_C                change to state RUNNING
+[      2322] proc tau_C                change to state SUSPENDED
+[      2322] proc idle                 change to state RUNNING
+[      2400] time object expired: B
+[      2400] proc tau_B                change to state READY_AND_NEW
+[      2400] time object expired: A
+[      2400] proc tau_A                change to state READY_AND_NEW
+[      2400] proc idle                 change to state READY
+[      2400] proc tau_A                change to state RUNNING
+[      2401] proc tau_A                change to state SUSPENDED
+[      2401] proc tau_B                change to state RUNNING
+[      2470] proc tau_B                change to state SUSPENDED
+[      2470] proc idle                 change to state RUNNING
+[      2500] time object expired: A
+[      2500] proc tau_A                change to state READY_AND_NEW
+[      2500] proc idle                 change to state READY
+[      2500] proc tau_A                change to state RUNNING
+[      2501] proc tau_A                change to state SUSPENDED
+[      2501] proc idle                 change to state RUNNING
+[      2520] time object expired: C
+[      2520] proc tau_C                change to state READY_AND_NEW
+[      2520] proc idle                 change to state READY
+[      2520] proc tau_C                change to state RUNNING
+[      2533] proc tau_C                change to state SUSPENDED
+[      2533] proc idle                 change to state RUNNING
+[      2550] time object expired: B
+[      2550] proc tau_B                change to state READY_AND_NEW
+[      2550] proc idle                 change to state READY
+[      2550] proc tau_B                change to state RUNNING
+[      2600] time object expired: A
+[      2600] proc tau_A                change to state READY_AND_NEW
+[      2600] proc tau_B                change to state READY
+[      2600] proc tau_A                change to state RUNNING
+[      2601] proc tau_A                change to state SUSPENDED
+[      2601] proc tau_B                change to state RUNNING
+[      2622] proc tau_B                change to state SUSPENDED
+[      2622] proc idle                 change to state RUNNING
+[      2700] time object expired: B
+[      2700] proc tau_B                change to state READY_AND_NEW
+[      2700] time object expired: A
+[      2700] proc tau_A                change to state READY_AND_NEW
+[      2700] proc idle                 change to state READY
+[      2700] proc tau_A                change to state RUNNING
+[      2701] proc tau_A                change to state SUSPENDED
+[      2701] proc tau_B                change to state RUNNING
+[      2771] proc tau_B                change to state SUSPENDED
+[      2771] proc idle                 change to state RUNNING
+[      2800] time object expired: C
+[      2800] proc tau_C                change to state READY_AND_NEW
+[      2800] time object expired: A
+[      2800] proc tau_A                change to state READY_AND_NEW
+[      2800] proc idle                 change to state READY
+[      2800] proc tau_A                change to state RUNNING
+[      2801] proc tau_A                change to state SUSPENDED
+[      2801] proc tau_C                change to state RUNNING
+[      2811] proc tau_C                change to state SUSPENDED
+[      2811] proc idle                 change to state RUNNING
+[      2850] time object expired: B
+[      2850] proc tau_B                change to state READY_AND_NEW
+[      2850] proc idle                 change to state READY
+[      2850] proc tau_B                change to state RUNNING
+[      2900] time object expired: A
+[      2900] proc tau_A                change to state READY_AND_NEW
+[      2900] proc tau_B                change to state READY
+[      2900] proc tau_A                change to state RUNNING
+[      2901] proc tau_A                change to state SUSPENDED
+[      2901] proc tau_B                change to state RUNNING
+[      2922] proc tau_B                change to state SUSPENDED
+[      2922] proc idle                 change to state RUNNING
+[      3000] time object expired: B
+[      3000] proc tau_B                change to state READY_AND_NEW
+[      3000] time object expired: A
+[      3000] proc tau_A                change to state READY_AND_NEW
+[      3000] proc idle                 change to state READY
+[      3000] proc tau_A                change to state RUNNING
+[      3001] proc tau_A                change to state SUSPENDED
+[      3001] proc tau_B                change to state RUNNING
+[      3070] proc tau_B                change to state SUSPENDED
+[      3070] proc idle                 change to state RUNNING
+[      3080] time object expired: C
+[      3080] proc tau_C                change to state READY_AND_NEW
+[      3080] proc idle                 change to state READY
+[      3080] proc tau_C                change to state RUNNING
+[      3093] proc tau_C                change to state SUSPENDED
+[      3093] proc idle                 change to state RUNNING
+[      3100] time object expired: A
+[      3100] proc tau_A                change to state READY_AND_NEW
+[      3100] proc idle                 change to state READY
+[      3100] proc tau_A                change to state RUNNING
+[      3101] proc tau_A                change to state SUSPENDED
+[      3101] proc idle                 change to state RUNNING
+[      3150] time object expired: B
+[      3150] proc tau_B                change to state READY_AND_NEW
+[      3150] proc idle                 change to state READY
+[      3150] proc tau_B                change to state RUNNING
+[      3200] time object expired: A
+[      3200] proc tau_A                change to state READY_AND_NEW
+[      3200] proc tau_B                change to state READY
+[      3200] proc tau_A                change to state RUNNING
+[      3201] proc tau_A                change to state SUSPENDED
+[      3201] proc tau_B                change to state RUNNING
+[      3221] proc tau_B                change to state SUSPENDED
+[      3221] proc idle                 change to state RUNNING
+[      3300] time object expired: B
+[      3300] proc tau_B                change to state READY_AND_NEW
+[      3300] time object expired: A
+[      3300] proc tau_A                change to state READY_AND_NEW
+[      3300] proc idle                 change to state READY
+[      3300] proc tau_A                change to state RUNNING
+[      3301] proc tau_A                change to state SUSPENDED
+[      3301] proc tau_B                change to state RUNNING
+[      3360] time object expired: C
+[      3360] proc tau_C                change to state READY_AND_NEW
+[      3370] proc tau_B                change to state SUSPENDED
+[      3370] proc tau_C                change to state RUNNING
+[      3381] proc tau_C                change to state SUSPENDED
+[      3381] proc idle                 change to state RUNNING
+[      3400] time object expired: A
+[      3400] proc tau_A                change to state READY_AND_NEW
+[      3400] proc idle                 change to state READY
+[      3400] proc tau_A                change to state RUNNING
+[      3401] proc tau_A                change to state SUSPENDED
+[      3401] proc idle                 change to state RUNNING
+[      3450] time object expired: B
+[      3450] proc tau_B                change to state READY_AND_NEW
+[      3450] proc idle                 change to state READY
+[      3450] proc tau_B                change to state RUNNING
+[      3500] time object expired: A
+[      3500] proc tau_A                change to state READY_AND_NEW
+[      3500] proc tau_B                change to state READY
+[      3500] proc tau_A                change to state RUNNING
+[      3501] proc tau_A                change to state SUSPENDED
+[      3501] proc tau_B                change to state RUNNING
+[      3518] proc tau_B                change to state SUSPENDED
+[      3518] proc idle                 change to state RUNNING
+[      3600] time object expired: B
+[      3600] proc tau_B                change to state READY_AND_NEW
+[      3600] time object expired: A
+[      3600] proc tau_A                change to state READY_AND_NEW
+[      3600] proc idle                 change to state READY
+[      3600] proc tau_A                change to state RUNNING
+[      3601] proc tau_A                change to state SUSPENDED
+[      3601] proc tau_B                change to state RUNNING
+[      3640] time object expired: C
+[      3640] proc tau_C                change to state READY_AND_NEW
+[      3671] proc tau_B                change to state SUSPENDED
+[      3671] proc tau_C                change to state RUNNING
+[      3682] proc tau_C                change to state SUSPENDED
+[      3682] proc idle                 change to state RUNNING
+[      3700] time object expired: A
+[      3700] proc tau_A                change to state READY_AND_NEW
+[      3700] proc idle                 change to state READY
+[      3700] proc tau_A                change to state RUNNING
+[      3701] proc tau_A                change to state SUSPENDED
+[      3701] proc idle                 change to state RUNNING
+[      3750] time object expired: B
+[      3750] proc tau_B                change to state READY_AND_NEW
+[      3750] proc idle                 change to state READY
+[      3750] proc tau_B                change to state RUNNING
+[      3800] time object expired: A
+[      3800] proc tau_A                change to state READY_AND_NEW
+[      3800] proc tau_B                change to state READY
+[      3800] proc tau_A                change to state RUNNING
+[      3801] proc tau_A                change to state SUSPENDED
+[      3801] proc tau_B                change to state RUNNING
+[      3821] proc tau_B                change to state SUSPENDED
+[      3821] proc idle                 change to state RUNNING
+[      3900] time object expired: B
+[      3900] proc tau_B                change to state READY_AND_NEW
+[      3900] time object expired: A
+[      3900] proc tau_A                change to state READY_AND_NEW
+[      3900] proc idle                 change to state READY
+[      3900] proc tau_A                change to state RUNNING
+[      3901] proc tau_A                change to state SUSPENDED
+[      3901] proc tau_B                change to state RUNNING
+[      3920] time object expired: C
+[      3920] proc tau_C                change to state READY_AND_NEW
+[      3970] proc tau_B                change to state SUSPENDED
+[      3970] proc tau_C                change to state RUNNING
+[      3981] proc tau_C                change to state SUSPENDED
+[      3981] proc idle                 change to state RUNNING
+[      4000] time object expired: A
+[      4000] proc tau_A                change to state READY_AND_NEW
+[      4000] proc idle                 change to state READY
+[      4000] proc tau_A                change to state RUNNING
+[      4001] proc tau_A                change to state SUSPENDED
+[      4001] proc idle                 change to state RUNNING
+[      4050] time object expired: B
+[      4050] proc tau_B                change to state READY_AND_NEW
+[      4050] proc idle                 change to state READY
+[      4050] proc tau_B                change to state RUNNING
+[      4100] time object expired: A
+[      4100] proc tau_A                change to state READY_AND_NEW
+[      4100] proc tau_B                change to state READY
+[      4100] proc tau_A                change to state RUNNING
+[      4101] proc tau_A                change to state SUSPENDED
+[      4101] proc tau_B                change to state RUNNING
+[      4119] proc tau_B                change to state SUSPENDED
+[      4119] proc idle                 change to state RUNNING
+[      4200] time object expired: stopper
+[      4200] proc stop                 change to state READY_AND_NEW
+[      4200] time object "    stopper" change to state SUSPENDED
+[      4200] time object expired: C
+[      4200] proc tau_C                change to state READY_AND_NEW
+[      4200] time object expired: B
+[      4200] proc tau_B                change to state READY_AND_NEW
+[      4200] time object expired: A
+[      4200] proc tau_A                change to state READY_AND_NEW
+[      4200] proc idle                 change to state READY
+[      4200] proc stop                 change to state RUNNING
+[      4200] time object "          A" change to state SUSPENDED
+[      4200] time object "          B" change to state SUSPENDED
+[      4200] time object "          C" change to state SUSPENDED

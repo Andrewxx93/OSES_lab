@@ -1,0 +1,95 @@
+OIL_VERSION = "2.5";
+IMPLEMENTATION trampoline {
+/* This fix the default STACKSIZE of tasks */
+    TASK {
+        UINT32 STACKSIZE = 32768 ;
+    } ;
+    /* This fix the default STACKSIZE of ISRs */
+    ISR {
+        UINT32 STACKSIZE = 32768 ;
+    } ;
+    };
+    
+    CPU default {
+    OS config {
+        STATUS = EXTENDED;
+        TRACE = FALSE;
+        BUILD = TRUE {
+            APP_SRC = "lab02_es2.c";
+            TRAMPOLINE_BASE_PATH = "/home/andrew/trampoline";
+            CFLAGS="-O0 -ggdb";
+            APP_NAME = "lab02_es2_exe";
+            LINKER = "gcc";
+            SYSTEM = PYTHON;
+        };
+    };
+    APPMODE stdAppmode {};
+
+MESSAGE tp_send{
+    MESSAGEPROPERTY = SEND_STATIC_INTERNAL{
+        CDATATYPE = "unsigned";
+    };
+};
+
+MESSAGE tp_receive{
+   MESSAGEPROPERTY = RECEIVE_UNQUEUED_INTERNAL{
+        SENDINGMESSAGE = tp_send;
+        FILTER = NEWISDIFFERENT;
+        INITIALVALUE = 0x00;
+    };
+    NOTIFICATION = NONE;
+};
+
+MESSAGE es_send{
+    MESSAGEPROPERTY = SEND_STATIC_INTERNAL{
+        CDATATYPE = "unsigned";
+    };
+};
+
+MESSAGE es_receive{
+   MESSAGEPROPERTY = RECEIVE_UNQUEUED_INTERNAL{
+        SENDINGMESSAGE = es_send;
+        FILTER = NEWISDIFFERENT;
+        INITIALVALUE = 0x00;
+    };
+    NOTIFICATION = NONE;
+};
+
+    ALARM hmi_a {
+        COUNTER = SystemCounter;
+        ACTION = ACTIVATETASK { TASK = hmi; };
+        AUTOSTART = TRUE { APPMODE = stdAppmode; ALARMTIME = 10; CYCLETIME = 10; };
+    };
+    ALARM engine_a {
+        COUNTER = SystemCounter;
+        ACTION = ACTIVATETASK { TASK = engine; };
+        AUTOSTART = TRUE { APPMODE = stdAppmode; ALARMTIME = 1; CYCLETIME = 1; };
+    };
+    ALARM stopper {
+        COUNTER = SystemCounter;
+        ACTION = ACTIVATETASK { TASK = stop; };
+        AUTOSTART = TRUE { APPMODE = stdAppmode; ALARMTIME = 200; CYCLETIME = 0; };
+    };
+    TASK hmi {
+        PRIORITY = 1;
+        AUTOSTART = TRUE { APPMODE = stdAppmode; };
+        ACTIVATION = 1;
+        SCHEDULE = FULL;
+        MESSAGE = tp_send;
+        MESSAGE = es_receive;
+    };
+    TASK engine {
+        PRIORITY = 2;
+        AUTOSTART = TRUE { APPMODE = stdAppmode; };
+        ACTIVATION = 1;
+        SCHEDULE = FULL;
+        MESSAGE = tp_receive;
+        MESSAGE = es_send;
+    };
+    TASK stop {
+        PRIORITY = 99;
+        AUTOSTART = FALSE;
+        ACTIVATION = 1;
+        SCHEDULE = FULL;
+    };
+    };

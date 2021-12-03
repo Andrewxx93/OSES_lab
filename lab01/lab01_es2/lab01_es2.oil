@@ -1,0 +1,83 @@
+
+OIL_VERSION = "2.5";
+
+IMPLEMENTATION trampoline {
+
+    /* This fix the default STACKSIZE of tasks */
+    TASK {
+        UINT32 STACKSIZE = 32768 ;
+    } ;
+};
+
+CPU lab01_ex1 {
+  OS config {
+    STATUS = EXTENDED;
+	TRACE = TRUE {
+		FORMAT = json;
+		PROC = TRUE;
+        RESOURCE = TRUE;
+        ALARM = TRUE;
+        
+    };
+    BUILD = TRUE {
+      APP_SRC = "lab01_es2.c";
+      TRAMPOLINE_BASE_PATH = "/home/andrew/trampoline";
+      CFLAGS="-ggdb";
+      APP_NAME = "lab01_es2_exe";
+      LINKER = "gcc";
+      SYSTEM = PYTHON;
+    };
+  };
+
+  
+  APPMODE stdAppmode {};
+  
+
+
+  ALARM a500_msec {
+    COUNTER = SystemCounter;
+    ACTION = ACTIVATETASK { TASK = TaskBasic; };
+    AUTOSTART = TRUE { APPMODE = stdAppmode; ALARMTIME = 50; CYCLETIME = 50; };
+  };
+
+  ALARM stopper {
+    COUNTER = SystemCounter;
+    ACTION = ACTIVATETASK { TASK = stop; };
+    AUTOSTART = TRUE { APPMODE = stdAppmode; ALARMTIME = 600; CYCLETIME = 0; };
+  };
+
+  EVENT LampOn{
+      MASK = AUTO;
+  };
+
+  EVENT LampOff{
+      MASK = AUTO;
+  };
+    
+  TASK TaskBasic {
+    PRIORITY = 1;
+    AUTOSTART = TRUE {APPMODE=stdAppmode;};
+    ACTIVATION = 1;
+    SCHEDULE = FULL;
+
+  };
+
+  TASK TaskExtended {
+    PRIORITY = 1;
+    AUTOSTART = FALSE;
+    ACTIVATION = 1;
+    SCHEDULE = FULL;
+    EVENT = LampOn;
+    EVENT = LampOff;
+  };
+  
+
+
+  TASK stop {
+    PRIORITY = 99;
+    AUTOSTART = FALSE;
+    ACTIVATION = 1;
+    SCHEDULE = FULL;
+  };
+  
+};

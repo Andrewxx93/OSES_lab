@@ -1,0 +1,167 @@
+
+{
+  "alarm" : 
+  [
+    
+    {
+      "ACTION" : "ACTIVATETASK",
+      "ACTION_S" : 
+      {
+        "TASK" : "engine"
+      },
+      "AUTOSTART" : "true",
+      "AUTOSTART_S" : 
+      {
+        "ALARMTIME" : 1,
+        "APPMODE" : 
+        [
+          
+          {
+            "VALUE" : "stdAppmode"
+          }
+        ],
+        "CYCLETIME" : 1
+      },
+      "COUNTER" : "SystemCounter",
+      "NAME" : "engine_a"
+    },    
+    {
+      "ACTION" : "ACTIVATETASK",
+      "ACTION_S" : 
+      {
+        "TASK" : "hmi"
+      },
+      "AUTOSTART" : "true",
+      "AUTOSTART_S" : 
+      {
+        "ALARMTIME" : 10,
+        "APPMODE" : 
+        [
+          
+          {
+            "VALUE" : "stdAppmode"
+          }
+        ],
+        "CYCLETIME" : 10
+      },
+      "COUNTER" : "SystemCounter",
+      "NAME" : "hmi_a"
+    },    
+    {
+      "ACTION" : "ACTIVATETASK",
+      "ACTION_S" : 
+      {
+        "TASK" : "stop"
+      },
+      "AUTOSTART" : "true",
+      "AUTOSTART_S" : 
+      {
+        "ALARMTIME" : 200,
+        "APPMODE" : 
+        [
+          
+          {
+            "VALUE" : "stdAppmode"
+          }
+        ],
+        "CYCLETIME" : 0
+      },
+      "COUNTER" : "SystemCounter",
+      "NAME" : "stopper"
+    }
+  ],
+  "event" : [],
+  "isr" : [],
+  "resource" : 
+  [
+    
+    {
+      "ISRUSAGE" : [],
+      "KIND" : "Resource",
+      "NAME" : "hmi_engine",
+      "PRIORITY" : 3,
+      "RESOURCEPROPERTY" : "STANDARD",
+      "TASKUSAGE" : 
+      [
+        
+        {
+          "VALUE" : "engine"
+        },        
+        {
+          "VALUE" : "hmi"
+        }
+      ]
+    }
+  ],
+  "task" : 
+  [
+    
+    {
+      "ACTIVATION" : 1,
+      "AUTOSTART" : "true",
+      "AUTOSTART_S" : 
+      {
+        "APPMODE" : 
+        [
+          
+          {
+            "VALUE" : "stdAppmode"
+          }
+        ]
+      },
+      "KIND" : "Task",
+      "NAME" : "hmi",
+      "NONPREEMPTABLE" : "false",
+      "PRIORITY" : 1,
+      "RESOURCE" : 
+      [
+        
+        {
+          "VALUE" : "hmi_engine"
+        }
+      ],
+      "SCHEDULE" : "FULL",
+      "STACKSIZE" : 32768,
+      "USEINTERNALRESOURCE" : "false"
+    },    
+    {
+      "ACTIVATION" : 1,
+      "AUTOSTART" : "true",
+      "AUTOSTART_S" : 
+      {
+        "APPMODE" : 
+        [
+          
+          {
+            "VALUE" : "stdAppmode"
+          }
+        ]
+      },
+      "KIND" : "Task",
+      "NAME" : "engine",
+      "NONPREEMPTABLE" : "false",
+      "PRIORITY" : 2,
+      "RESOURCE" : 
+      [
+        
+        {
+          "VALUE" : "hmi_engine"
+        }
+      ],
+      "SCHEDULE" : "FULL",
+      "STACKSIZE" : 32768,
+      "USEINTERNALRESOURCE" : "false"
+    },    
+    {
+      "ACTIVATION" : 1,
+      "AUTOSTART" : "false",
+      "KIND" : "Task",
+      "NAME" : "stop",
+      "NONPREEMPTABLE" : "false",
+      "PRIORITY" : 4,
+      "SCHEDULE" : "FULL",
+      "STACKSIZE" : 32768,
+      "USEINTERNALRESOURCE" : "false"
+    }
+  ]
+}

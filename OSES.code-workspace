@@ -1,0 +1,22 @@
+{
+    "folders": [
+		{
+			"path": "lab02"
+		},
+		{
+			"path": "lab01"
+		},
+		{
+			"path": "../../onedrive/OperatingSystemForEmbeddedSystem-2021/OSES-examples"
+		},
+		{
+			"path": "lab03"
+		}
+	],
+    "settings": {
+		"liveServer.settings.multiRootWorkspaceName": "4-MQTT",
+		"files.associations": {
+			"random": "c"
+		}
+    }
+}

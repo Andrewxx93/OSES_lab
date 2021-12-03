@@ -1,0 +1,471 @@
+Calibrating delay... 
+Do other things i=1000000... l= 2856 sf= 175
+Do other things i=175000000... l= 581594 sf= 237
+Do other things i=237000000... l= 775971 sf= 271
+Do other things i=271000000... l= 897983 sf= 286
+Do other things i=286000000... l= 938235 sf= 295
+Do other things i=295000000... l= 972395 sf= 299
+tsk init... counter=0
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=199 
+
+#Starting task B
+
+Do other things i=209300000Task B completed. Response time=709 
+
+#Starting Task C
+
+Do other things i=29900000CRITICAL_SECTION=3 Task C enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task C exits from 'critical section'.  Response time=1004 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=222 
+
+#Starting task B
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=202 
+
+Do other things i=209300000Task B completed. Response time=895 
+
+#Starting Task C
+
+Do other things i=29900000CRITICAL_SECTION=3 Task C enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task C exits from 'critical section'.  Response time=300 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=221 
+
+#Starting task B
+
+Do other things i=209300000Task B completed. Response time=708 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=220 
+
+#Starting task B
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=203 
+
+Do other things i=209300000Task B completed. Response time=934 
+
+#Starting Task C
+
+Do other things i=29900000CRITICAL_SECTION=3 Task C enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task C exits from 'critical section'.  Response time=305 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=222 
+
+#Starting task B
+
+Do other things i=209300000Task B completed. Response time=710 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=225 
+
+#Starting task B
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=202 
+
+Do other things i=209300000Task B completed. Response time=907 
+
+#Starting Task C
+
+Do other things i=29900000CRITICAL_SECTION=3 Task C enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task C exits from 'critical section'.  Response time=330 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=228 
+
+#Starting task B
+
+Do other things i=209300000Task B completed. Response time=710 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=224 
+
+#Starting task B
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=196 
+
+Do other things i=209300000Task B completed. Response time=889 
+
+#Starting Task C
+
+Do other things i=29900000CRITICAL_SECTION=3 Task C enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task C exits from 'critical section'.  Response time=296 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=207 
+
+#Starting task B
+
+Do other things i=209300000Task B completed. Response time=700 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=225 
+
+#Starting task B
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=199 
+
+Do other things i=209300000Task B completed. Response time=902 
+
+#Starting Task C
+
+Do other things i=29900000CRITICAL_SECTION=3 Task C enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task C exits from 'critical section'.  Response time=512 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=202 
+
+#Starting task B
+
+Do other things i=209300000Task B completed. Response time=700 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=224 
+
+#Starting task B
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=205 
+
+Do other things i=209300000Task B completed. Response time=914 
+
+#Starting Task C
+
+Do other things i=29900000CRITICAL_SECTION=3 Task C enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task C exits from 'critical section'.  Response time=715 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=203 
+
+#Starting task B
+
+Do other things i=209300000Task B completed. Response time=714 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=204 
+
+#Starting task B
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=200 
+
+Do other things i=209300000Task B completed. Response time=915 
+
+#Starting Task C
+
+Do other things i=29900000CRITICAL_SECTION=3 Task C enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task C exits from 'critical section'.  Response time=919 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=197 
+
+#Starting task B
+
+Do other things i=209300000Task B completed. Response time=695 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=229 
+
+#Starting Task C
+
+#Starting task B
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=201 
+
+Do other things i=209300000Task B completed. Response time=897 
+
+Do other things i=29900000CRITICAL_SECTION=3 Task C enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task C exits from 'critical section'.  Response time=1196 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=202 
+
+#Starting task B
+
+Do other things i=209300000Task B completed. Response time=714 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=202 
+
+#Starting Task C
+
+Do other things i=29900000CRITICAL_SECTION=3 Task C enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task C exits from 'critical section'.  Response time=324 
+
+#Starting task B
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=196 
+
+Do other things i=209300000Task B completed. Response time=908 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=208 
+
+#Starting task B
+
+Do other things i=209300000Task B completed. Response time=717 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=222 
+
+#Starting Task C
+
+Do other things i=29900000CRITICAL_SECTION=3 Task C enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task C exits from 'critical section'.  Response time=294 
+
+#Starting task B
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=200 
+
+Do other things i=209300000Task B completed. Response time=918 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=206 
+
+#Starting task B
+
+Do other things i=209300000Task B completed. Response time=709 
+
+#Starting Task C
+
+Do other things i=29900000CRITICAL_SECTION=3 Task C enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task C exits from 'critical section'.  Response time=323 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=224 
+
+#Starting task B
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=204 
+
+Do other things i=209300000Task B completed. Response time=913 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=202 
+
+#Starting task B
+
+Do other things i=209300000Task B completed. Response time=708 
+
+#Starting Task C
+
+Do other things i=29900000CRITICAL_SECTION=3 Task C enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task C exits from 'critical section'.  Response time=398 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=224 
+
+#Starting task B
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=195 
+
+Do other things i=209300000Task B completed. Response time=877 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=223 
+
+#Starting task B
+
+Do other things i=209300000Task B completed. Response time=717 
+
+#Starting Task C
+
+Do other things i=29900000CRITICAL_SECTION=3 Task C enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task C exits from 'critical section'.  Response time=606 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=222 
+
+#Starting task B
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=197 
+
+Do other things i=209300000Task B completed. Response time=899 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=209 
+
+#Starting task B
+
+Do other things i=209300000Task B completed. Response time=705 
+
+#Starting Task C
+
+Do other things i=29900000CRITICAL_SECTION=3 Task C enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task C exits from 'critical section'.  Response time=804 
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=223 
+
+#Starting task B
+
+#Starting task A
+
+CRITICAL_SECTION=1 Task A enters in the 'critical section'.  
+
+Do other things i=59800000CRITICAL_SECTION=0 Task A exits from critical section. Response time=199 
+
+Do other things i=209300000Task B completed. Response time=889 
+
+Shutdown
+Calibrating delay... 
+Do other things i=1000000... l= 2856 sf= 175
+Do other things i=175000000... l= 581594 sf= 237
+Do other things i=237000000... l= 775971 sf= 271
+Do other things i=271000000... l= 897983 sf= 286
+Do other things i=286000000... l= 938235 sf= 295
+Do other things i=295000000... l= 972395 sf= 299

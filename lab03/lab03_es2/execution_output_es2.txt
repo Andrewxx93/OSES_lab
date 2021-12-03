@@ -1,0 +1,303 @@
+Calibrating delay... 
+... l= 3262 sf= 153
+... l= 491945 sf= 232
+... l= 740289 sf= 272
+... l= 870200 sf= 292
+... l= 954478 sf= 298
+... l= 938603 sf= 307
+... l= 964534 sf= 312
+... l= 973211 sf= 316
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=197 
+
+Task B completata. Tempo impiegato=892 
+
+task C entra nella critical section
+
+task C esce dalla critical section. Task C completata. Tempo impiegato=1197 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=397 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=196 
+
+Task B completata. Tempo impiegato=904 
+
+task C entra nella critical section
+
+task C esce dalla critical section. Task C completata. Tempo impiegato=324 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=322 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=201 
+
+Task B completata. Tempo impiegato=1240 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=196 
+
+Task B completata. Tempo impiegato=921 
+
+task C entra nella critical section
+
+task C esce dalla critical section. Task C completata. Tempo impiegato=317 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=229 
+
+Task B completata. Tempo impiegato=924 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=240 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=201 
+
+Task B completata. Tempo impiegato=1005 
+
+task C entra nella critical section
+
+task C esce dalla critical section. Task C completata. Tempo impiegato=391 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=218 
+
+Task B completata. Tempo impiegato=910 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=218 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=198 
+
+Task B completata. Tempo impiegato=915 
+
+task C entra nella critical section
+
+task C esce dalla critical section. Task C completata. Tempo impiegato=495 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=220 
+
+Task B completata. Tempo impiegato=899 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=237 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=197 
+
+Task B completata. Tempo impiegato=908 
+
+task C entra nella critical section
+
+task C esce dalla critical section. Task C completata. Tempo impiegato=684 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=242 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=219 
+
+Task B completata. Tempo impiegato=1242 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=198 
+
+Task B completata. Tempo impiegato=908 
+
+task C entra nella critical section
+
+task C esce dalla critical section. Task C completata. Tempo impiegato=901 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=259 
+
+Task B completata. Tempo impiegato=974 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=208 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=229 
+
+Task B completata. Tempo impiegato=1042 
+
+task C entra nella critical section
+
+task C esce dalla critical section. Task C completata. Tempo impiegato=1233 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=243 
+
+Task B completata. Tempo impiegato=937 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=230 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=212 
+
+Task B completata. Tempo impiegato=911 
+
+task C entra nella critical section
+
+task C esce dalla critical section. Task C completata. Tempo impiegato=1232 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=223 
+
+Task B completata. Tempo impiegato=922 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=219 
+
+task C entra nella critical section
+
+task C esce dalla critical section. Task C completata. Tempo impiegato=304 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=197 
+
+Task B completata. Tempo impiegato=901 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=224 
+
+Task B completata. Tempo impiegato=924 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=224 
+
+task C entra nella critical section
+
+task C esce dalla critical section. Task C completata. Tempo impiegato=521 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=205 
+
+Task B completata. Tempo impiegato=933 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=224 
+
+Task B completata. Tempo impiegato=917 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=197 
+
+task C entra nella critical section
+
+task C esce dalla critical section. Task C completata. Tempo impiegato=603 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=213 
+
+Task B completata. Tempo impiegato=913 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=224 
+
+Task B completata. Tempo impiegato=968 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=196 
+
+task C entra nella critical section
+
+task C esce dalla critical section. Task C completata. Tempo impiegato=851 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=196 
+
+Task B completata. Tempo impiegato=901 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=225 
+
+Task B completata. Tempo impiegato=924 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=201 
+
+task C entra nella critical section
+
+task C esce dalla critical section. Task C completata. Tempo impiegato=1025 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=200 
+
+Task B completata. Tempo impiegato=923 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=222 
+
+Task B completata. Tempo impiegato=932 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=201 
+
+task C entra nella critical section
+
+task C esce dalla critical section. Task C completata. Tempo impiegato=1223 
+
+task A entra nella critical section
+
+task A esce dalla critical section. Task A completata. Tempo impiegato=200 
+
+Task B completata. Tempo impiegato=922 
+
+Shutdown
+Calibrating delay... 
+... l= 3262 sf= 153
+... l= 491945 sf= 232
+... l= 740289 sf= 272
+... l= 870200 sf= 292
+... l= 954478 sf= 298
+... l= 938603 sf= 307
+... l= 964534 sf= 312
+... l= 973211 sf= 316

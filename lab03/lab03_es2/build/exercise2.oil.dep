@@ -1,0 +1,9 @@
+exercise2.oil: \
+ /home/andrew/trampoline/goil/templates/config/config.oil \
+ /home/andrew/trampoline/goil/templates/config/kernel.oil \
+ /home/andrew/trampoline/goil/templates/config/api.oil \
+ /home/andrew/trampoline/goil/templates/config/api_STM.oil \
+ /home/andrew/trampoline/goil/templates/config/api_ioc.oil \
+ /home/andrew/trampoline/goil/templates/config/posix/config.oil \
+ /home/andrew/trampoline/goil/templates/config/posix/linux/config.oil \
+ /home/andrew/trampoline/goil/templates/config/config2.5.oil

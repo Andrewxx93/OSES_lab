@@ -1,0 +1,13 @@
+build/machines/posix/tpl_trace.c.o: \
+ /home/andrew/trampoline/machines/posix/tpl_trace.c \
+ /usr/include/stdc-predef.h lab02_es2/tpl_app_define.h \
+ /home/andrew/trampoline/os/tpl_config_def.h \
+ /home/andrew/trampoline/os/tpl_config_check.h
+
+/usr/include/stdc-predef.h:
+
+lab02_es2/tpl_app_define.h:
+
+/home/andrew/trampoline/os/tpl_config_def.h:
+
+/home/andrew/trampoline/os/tpl_config_check.h:
